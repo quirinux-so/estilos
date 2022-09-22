@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Nombre:	estiloxp
+# Autor:	Charlie Martínez® <cmartinez@quirinux.org>
+# Licencia:	https://www.gnu.org/licenses/gpl-2.0.txt
+# Descripción:	Configura aspecto de Quirinux para que parezca Windows xp.
+# Versión:	1.00
+
+for cache in /home/*; do cp -r -f -a /opt/asistente/estilos/xp/.cache $cache; done
+for config in /home/*; do cp -r -f -a /opt/asistente/estilos/xp/.config $config; done
+for local in /home/*; do cp -r -f -a /opt/asistente/estilos/xp/.local $local; done
+qxlogout

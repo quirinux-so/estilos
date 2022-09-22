@@ -1,0 +1,71 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: estilos 3.15.2\n"
+"PO-Revision-Date: 2022-06-25 19:58 UTC\n"
+"Last-Translator: charlie <charlie@quirinux>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .project:1
+msgid "Quirinux"
+msgstr "Quirinux"
+
+#: estilos.form:35
+msgid " Tema de escritorio"
+msgstr "тема рабочего стола"
+
+#: estilos.form:70
+msgid "Windark"
+msgstr "Windark"
+
+#: estilos.form:75
+msgid "Win Luz"
+msgstr "Win свет"
+
+#: estilos.form:80
+msgid "Mac"
+msgstr "Мак"
+
+#: estilos.form:85
+msgid "Clásico"
+msgstr "Классический"
+
+#: estilos.form:90
+msgid "Retro"
+msgstr "винтаж"
+
+#: estilos.form:95
+msgid "Mac Vintage"
+msgstr "винтажный макинтош"
+
+#: estilos.form:112
+msgid "Quirinux 1.0"
+msgstr "Quirinux 1.0"
+
+#: estilos.form:117
+msgid "Salir"
+msgstr "Оставлять"
+
+#: estilos.form:123
+msgid "Estilos de ventanas"
+msgstr "стили окна"
+
+#: estilos.form:128
+msgid "Fondo de escritorio"
+msgstr "обои для рабочего стола"
+
+#: estilos.form:133
+msgid "Protector de pantalla"
+msgstr "Экранная заставка"
+
+#: estilos.form:138
+msgid "Apariencia (avanzado)"
+msgstr "Внешний вид (дополнительно)"
+
+#: estilos.form:143
+msgid "Ajustes de ventanas"
+msgstr "настройки окна"
+

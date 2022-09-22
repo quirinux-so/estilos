@@ -1,0 +1,101 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,133,94)
+  Background = Color.White
+  { encabezado Label
+    MoveScaled(9,0,138,10)
+    Font = Font["Segoe UI,+4"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = (" Tema de escritorio")
+  }
+  { estilowin PictureBox
+    MoveScaled(9,13,35.7143,21)
+    Picture = Picture["win.png"]
+    Stretch = True
+  }
+  { estilowinluz PictureBox
+    MoveScaled(49,13,36,21)
+    Picture = Picture["winluz.png"]
+    Stretch = True
+  }
+  { estiloclassic PictureBox
+    MoveScaled(89,13,36,21)
+    Picture = Picture["clasico.png"]
+    Stretch = True
+  }
+  { estilomac PictureBox
+    MoveScaled(9,40,36,21)
+    Picture = Picture["mac1.png"]
+    Stretch = True
+  }
+  { estiloretro PictureBox
+    MoveScaled(89,40,36,21)
+    Picture = Picture["retro1.png"]
+    Stretch = True
+  }
+  { windark Button
+    MoveScaled(9,34,36,4)
+    Text = ("Windark")
+  }
+  { winluz Button
+    MoveScaled(49,34,36,4)
+    Text = ("Win Luz")
+  }
+  { mac Button
+    MoveScaled(9,61,36,4)
+    Text = ("Mac")
+  }
+  { clasico Button
+    MoveScaled(89,34,36,4)
+    Text = ("Clásico")
+  }
+  { retro Button
+    MoveScaled(89,61,36,4)
+    Text = ("Retro")
+  }
+  { macvintage Button
+    MoveScaled(49,61,36,4)
+    Text = ("Mac Vintage")
+  }
+  { estilomacvintage PictureBox
+    MoveScaled(49,40,36,21)
+    Picture = Picture["mac-classic.png"]
+    Stretch = True
+  }
+  { estiloquirinux1 PictureBox
+    MoveScaled(9,67,35.7143,21)
+    Picture = Picture["win.png"]
+    Stretch = True
+  }
+  { quirinux1 Button
+    MoveScaled(9,88,36,4)
+    Text = ("Quirinux 1.0")
+  }
+  { Cancelar Button
+    MoveScaled(88,81,36,6)
+    Text = ("Salir")
+    Picture = Picture["icon:/32/cancel"]
+  }
+  { Ventanas Button
+    MoveScaled(49,70,35,4)
+    Text = ("Estilos de ventanas")
+  }
+  { Backgrounds Button
+    MoveScaled(49,80,35,4)
+    Text = ("Fondo de escritorio")
+  }
+  { screensaver Button
+    MoveScaled(49,85,35,4)
+    Text = ("Protector de pantalla")
+  }
+  { apariencia Button
+    MoveScaled(88,75,36,4)
+    Text = ("Apariencia (avanzado)")
+  }
+  { Ventanas2 Button
+    MoveScaled(49,75,35,4)
+    Text = ("Ajustes de ventanas")
+  }
+}

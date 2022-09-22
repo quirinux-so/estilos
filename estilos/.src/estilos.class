@@ -1,0 +1,126 @@
+' Gambas class file
+
+
+
+Public Sub quirinux1_Click()
+
+  Shell "estiloquirinux1"
+
+End
+
+
+Public Sub clasico_Click()
+
+  Shell "estiloclasico"
+
+End
+
+
+Public Sub windark_Click()
+
+   Shell "estilowindark"
+
+End
+
+Public Sub winluz_Click()
+
+  Shell "estilowinluz"
+
+End
+
+Public Sub mac_Click()
+
+   Shell "estilomac"
+
+End
+
+Public Sub retro_Click()
+
+  Shell "estiloretro"
+
+End
+
+Public Sub macvintage_Click()
+
+  Shell "estilomacvintage"
+
+End
+
+Public Sub Cancelar_Click()
+
+  Me.Close
+
+End
+
+
+Public Sub estilowin_MouseDown()
+
+     Shell "estilowindark"
+
+End
+
+Public Sub estilowinluz_MouseDown()
+
+    Shell "estilo-winluz"
+
+End
+
+Public Sub estiloclassic_MouseDown()
+
+    Shell "estiloclasico"
+
+End
+
+Public Sub estilomac_MouseDown()
+
+     Shell "estilomac"
+
+End
+
+Public Sub estilomacvintage_MouseDown()
+
+    Shell "estilomacvintage"
+
+End
+
+Public Sub estiloretro_MouseDown()
+
+   Shell "estiloretro"
+
+End
+
+Public Sub estiloquirinux1_MouseDown()
+
+    Shell "estiloquirinux1"
+
+End
+
+Public Sub apariencia_Click()
+
+  Shell "xfce4-appearance-settings"
+
+End
+
+Public Sub Ventanas_Click()
+
+  Shell "xfwm4-settings"
+
+End
+
+Public Sub Ventanas2_Click()
+
+  Shell "xfwm4-tweaks-settings"
+
+End
+
+Public Sub Backgrounds_Click()
+
+  Shell "xfdesktop-settings"
+
+End
+
+Public Sub screensaver_Click()
+
+  Shell "xscreensaver-demo"
+
+End

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Nombre:	estiloretro
+# Autor:	Charlie Martínez® <cmartinez@quirinux.org>
+# Licencia:	https://www.gnu.org/licenses/gpl-2.0.txt
+# Descripción:	Configura aspecto de Quirinux para que parezca Windows retro.
+# Versión:	1.00
+
+for cache in /home/*; do cp -r -f -a /opt/asistente/estilos/retro/.cache $cache; done
+for config in /home/*; do cp -r -f -a /opt/asistente/estilos/retro/.config $config; done
+for local in /home/*; do cp -r -f -a /opt/asistente/estilos/retro/.local $local; done
+qxlogout
